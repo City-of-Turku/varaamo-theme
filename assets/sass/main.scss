@@ -1,0 +1,54 @@
+@import 'variables';
+div.test-site-message.alert.alert-danger {
+  background-color: #990033;
+}
+body {
+  background-color: #f9f9f9;
+}
+.app-TopNavbar {
+  &.high-contrast {
+    .navbar-brand {
+      span {
+        //filter: none;
+      }
+    }
+
+  }
+  #main {
+    span.varaamo-logo {
+      background-image: url('../images/logo.png');
+      &-sv,{
+        background-image: url('../images/logo_sv.png');
+      }
+    }
+  }
+
+}
+
+.app-SearchPage {
+  .app-SearchControlsContainer {
+
+  }
+  .app-MapToggle {
+
+    button {
+
+    }
+  }
+}
+.app-HomePage {
+  background-image: url("../images/homepage.png");
+  .app-HomePageContent__banner__linkWrapper {
+
+
+    &:hover, &:active, &:focus {
+      background: linear-gradient($varaamo-main 50%,$varaamo-secondary);
+    }
+  }
+}
+
+.app-ResourcePage__content {
+  background-color: #f9f9f9;
+}
+
+
